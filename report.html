@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monthly Report</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container my-4">
+    <h1>Monthly Shopping Report</h1>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Total Quantity</th>
+          <th>Total Cost (₦)</th>
+        </tr>
+      </thead>
+      <tbody id="report-table">
+        <!-- Report data will be dynamically populated -->
+      </tbody>
+    </table>
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <h5>Total Quantity: <span id="total-quantity">0</span></h5>
+      </div>
+      <div class="col-md-6">
+        <h5>Total Cost: ₦<span id="total-cost">0.00</span></h5>
+      </div>
+    </div>
+
+    <a href="list.html" class="btn btn-secondary mt-3">Back to List</a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
